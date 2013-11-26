@@ -15,7 +15,7 @@ out float intensity;
 
 void main( void ){
 	gl_Position = projection * view * model * vec4( vertex, 1.f );
-    //gl_Position.x *= sin( time ); // funny effect
+	//gl_Position.x *= sin( time ); // funny effect
 
 	// calc light manipulation
 	//intensity = 0.5 + 0.5*sin( time ); // vary between 0 and 1

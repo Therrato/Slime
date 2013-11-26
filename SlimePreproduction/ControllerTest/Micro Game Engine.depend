@@ -1,0 +1,878 @@
+# depslib dependency file v1.0
+1385336054 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviour.cpp
+	<cassert>
+	<iostream>
+	"Behaviour.hpp"
+
+1385336149 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviour.hpp
+	"XController.h"
+
+1385477554 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\xcontroller.h
+
+1383268482 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\followbehavior.cpp
+	"FollowBehavior.hpp"
+	"../glm.hpp"
+
+1378998096 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\followbehavior.hpp
+	"../Behaviour.hpp"
+	"../GameObject.hpp"
+	"../glm.hpp"
+
+1383268022 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\gameobject.hpp
+	<vector>
+	<string>
+	"glm.hpp"
+
+1359909794 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1359902126 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\keysbehaviour.cpp
+	"KeysBehaviour.hpp"
+	<sfml/window.hpp>
+	"../GameObject.hpp"
+
+1359823466 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\keysbehaviour.hpp
+	"../Behaviour.hpp"
+
+1383265172 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\rotatingbehaviour.cpp
+	"RotatingBehaviour.hpp"
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1359823480 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\rotatingbehaviour.hpp
+	"../Behaviour.hpp"
+
+1385478072 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\wasdbehaviour.cpp
+	<iostream>
+	<cmath>
+	<SFML/Window.hpp>
+	"WASDBehaviour.hpp"
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1385476646 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\wasdbehaviour.hpp
+	<SFML/Window.hpp>
+	"../Behaviour.hpp"
+
+1383408915 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\wheelbehaviour.cpp
+	"WheelBehaviour.hpp"
+	<sfml/window.hpp>
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1383406949 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\behaviours\wheelbehaviour.hpp
+	"../Behaviour.hpp"
+
+1361178152 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\camera.cpp
+	"glm.hpp"
+	"Camera.hpp"
+	"Renderer.hpp"
+
+1359907314 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\camera.hpp
+	<string>
+	"GameObject.hpp"
+
+1361178780 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\renderer.hpp
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	"glm.hpp"
+
+1380618805 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\collider.cpp
+	"Collider.h"
+
+1380707471 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\collider.h
+	"glm.hpp"
+
+1380619662 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\collisiondetector.cpp
+	"CollisionDetector.h"
+
+1380708538 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\collisiondetector.h
+	<iostream>
+	<vector>
+	"Collider.h"
+
+1380621527 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\fps.cpp
+	<iostream>
+	"FPS.hpp"
+	"Time.hpp"
+
+1361092144 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\fps.hpp
+
+1358431643 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\time.hpp
+	<SFML/System.hpp>
+
+1385476195 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\game.cpp
+	<cassert>
+	"Time.hpp"
+	"FPS.hpp"
+	"Hud.hpp"
+	"Renderer.hpp"
+	"ShaderProgram.hpp"
+	"Game.hpp"
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+	"Behaviours/KeysBehaviour.hpp"
+	"Behaviours/WASDBehaviour.hpp"
+	"Behaviours/RotatingBehaviour.hpp"
+	"Behaviours/FollowBehavior.hpp"
+
+1385475361 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\hud.hpp
+	<SFML/Graphics.hpp>
+	"time.h"
+
+1359815027 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\shaderprogram.hpp
+	<string>
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1378134448 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\game.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1378132840 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\world.hpp
+	"GameObject.hpp"
+
+1359907327 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\light.hpp
+	<string>
+	"GameObject.hpp"
+
+1359671404 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\mesh.hpp
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1359061002 c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\texture.hpp
+	<iostream>
+	<map>
+	<GL/glew.h>
+
+1385475685 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\gameobject.cpp
+	<cassert>
+	<iostream>
+	"Renderer.hpp"
+	"GameObject.hpp"
+	"Behaviour.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1383407377 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\hud.cpp
+	<cassert>
+	<iostream>
+	<cstdio>
+	<GL/glew.h>
+	"FPS.hpp"
+	"Hud.hpp"
+	"Time.hpp"
+
+1359907291 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\light.cpp
+	"Light.hpp"
+	"Renderer.hpp"
+
+1361173636 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\main.cpp
+	<iostream>
+	"Game.hpp"
+
+1361016765 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\mesh.cpp
+	"Mesh.hpp"
+	<map>
+	<cstring>
+	<fstream>
+	"Renderer.hpp"
+
+1361179274 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\renderer.cpp
+	"Renderer.hpp"
+	<cassert>
+	<GL/glew.h>
+	"Time.hpp"
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+	"GameObject.hpp"
+
+1359060929 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\shaderprogram.cpp
+	"ShaderProgram.hpp"
+	<iostream>
+	<fstream>
+	"Texture.hpp"
+
+1360915113 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\texture.cpp
+	<SFML/Graphics.hpp>
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+
+1359818749 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1378132886 source:c:\users\conner sampson\dropbox\project back to basic\gtp\controllertest\world.cpp
+	<cassert>
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+
+1385336054 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviour.cpp
+	<cassert>
+	<iostream>
+	"Behaviour.hpp"
+
+1385336149 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviour.hpp
+	"XController.h"
+
+1385336752 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\xcontroller.h
+	<windows.h>
+
+1383268482 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\followbehavior.cpp
+	"FollowBehavior.hpp"
+	"../glm.hpp"
+
+1378998096 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\followbehavior.hpp
+	"../Behaviour.hpp"
+	"../GameObject.hpp"
+	"../glm.hpp"
+
+1383268022 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\gameobject.hpp
+	<vector>
+	<string>
+	"glm.hpp"
+
+1359909794 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1359902126 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\keysbehaviour.cpp
+	"KeysBehaviour.hpp"
+	<sfml/window.hpp>
+	"../GameObject.hpp"
+
+1359823466 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\keysbehaviour.hpp
+	"../Behaviour.hpp"
+
+1383265172 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\rotatingbehaviour.cpp
+	"RotatingBehaviour.hpp"
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1359823480 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\rotatingbehaviour.hpp
+	"../Behaviour.hpp"
+
+1385384747 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\wasdbehaviour.cpp
+	<iostream>
+	<cmath>
+	<SFML/Window.hpp>
+	"WASDBehaviour.hpp"
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1385336427 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\wasdbehaviour.hpp
+	<SFML/Window.hpp>
+	"../Behaviour.hpp"
+
+1383408915 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\wheelbehaviour.cpp
+	"WheelBehaviour.hpp"
+	<sfml/window.hpp>
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1383406949 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\behaviours\wheelbehaviour.hpp
+	"../Behaviour.hpp"
+
+1361178152 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\camera.cpp
+	"glm.hpp"
+	"Camera.hpp"
+	"Renderer.hpp"
+
+1359907314 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\camera.hpp
+	<string>
+	"GameObject.hpp"
+
+1361178780 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\renderer.hpp
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	"glm.hpp"
+
+1380618805 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\collider.cpp
+	"Collider.h"
+
+1380707471 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\collider.h
+	"glm.hpp"
+
+1380619662 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\collisiondetector.cpp
+	"CollisionDetector.h"
+
+1380708538 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\collisiondetector.h
+	<iostream>
+	<vector>
+	"Collider.h"
+
+1380621527 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\fps.cpp
+	<iostream>
+	"FPS.hpp"
+	"Time.hpp"
+
+1361092144 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\fps.hpp
+
+1358431643 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\time.hpp
+	<SFML/System.hpp>
+
+1385475908 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\game.cpp
+	<cassert>
+	"Time.hpp"
+	"FPS.hpp"
+	"Hud.hpp"
+	"Renderer.hpp"
+	"ShaderProgram.hpp"
+	"Game.hpp"
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+	"Behaviours/KeysBehaviour.hpp"
+	"Behaviours/WASDBehaviour.hpp"
+	"Behaviours/RotatingBehaviour.hpp"
+	"Behaviours/FollowBehavior.hpp"
+
+1385475361 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\hud.hpp
+	<SFML/Graphics.hpp>
+	"time.h"
+
+1359815027 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\shaderprogram.hpp
+	<string>
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1378134448 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\game.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1378132840 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\world.hpp
+	"GameObject.hpp"
+
+1359907327 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\light.hpp
+	<string>
+	"GameObject.hpp"
+
+1359671404 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\mesh.hpp
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1359061002 c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\texture.hpp
+	<iostream>
+	<map>
+	<GL/glew.h>
+
+1385475685 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\gameobject.cpp
+	<cassert>
+	<iostream>
+	"Renderer.hpp"
+	"GameObject.hpp"
+	"Behaviour.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1383407377 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\hud.cpp
+	<cassert>
+	<iostream>
+	<cstdio>
+	<GL/glew.h>
+	"FPS.hpp"
+	"Hud.hpp"
+	"Time.hpp"
+
+1359907291 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\light.cpp
+	"Light.hpp"
+	"Renderer.hpp"
+
+1361173636 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\main.cpp
+	<iostream>
+	"Game.hpp"
+
+1361016765 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\mesh.cpp
+	"Mesh.hpp"
+	<map>
+	<cstring>
+	<fstream>
+	"Renderer.hpp"
+
+1361179274 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\renderer.cpp
+	"Renderer.hpp"
+	<cassert>
+	<GL/glew.h>
+	"Time.hpp"
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+	"GameObject.hpp"
+
+1359060929 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\shaderprogram.cpp
+	"ShaderProgram.hpp"
+	<iostream>
+	<fstream>
+	"Texture.hpp"
+
+1360915113 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\texture.cpp
+	<SFML/Graphics.hpp>
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+
+1359818749 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1378132886 source:c:\users\nivaas\dropbox\project back to basic\gtp\controllertest\world.cpp
+	<cassert>
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+
+1385336054 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviour.cpp
+	<cassert>
+	<iostream>
+	"Behaviour.hpp"
+
+1385336149 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviour.hpp
+	"XController.h"
+
+1385477554 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\xcontroller.h
+
+1383268482 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\followbehavior.cpp
+	"FollowBehavior.hpp"
+	"../glm.hpp"
+
+1378998096 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\followbehavior.hpp
+	"../Behaviour.hpp"
+	"../GameObject.hpp"
+	"../glm.hpp"
+
+1383268022 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\gameobject.hpp
+	<vector>
+	<string>
+	"glm.hpp"
+
+1359909794 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1359902126 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\keysbehaviour.cpp
+	"KeysBehaviour.hpp"
+	<sfml/window.hpp>
+	"../GameObject.hpp"
+
+1359823466 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\keysbehaviour.hpp
+	"../Behaviour.hpp"
+
+1383265172 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\rotatingbehaviour.cpp
+	"RotatingBehaviour.hpp"
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1359823480 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\rotatingbehaviour.hpp
+	"../Behaviour.hpp"
+
+1385478072 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\wasdbehaviour.cpp
+	<iostream>
+	<cmath>
+	<SFML/Window.hpp>
+	"WASDBehaviour.hpp"
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1385476646 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\wasdbehaviour.hpp
+	<SFML/Window.hpp>
+	"../Behaviour.hpp"
+
+1383408915 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\wheelbehaviour.cpp
+	"WheelBehaviour.hpp"
+	<sfml/window.hpp>
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1383406949 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\behaviours\wheelbehaviour.hpp
+	"../Behaviour.hpp"
+
+1361178152 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\camera.cpp
+	"glm.hpp"
+	"Camera.hpp"
+	"Renderer.hpp"
+
+1359907314 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\camera.hpp
+	<string>
+	"GameObject.hpp"
+
+1361178780 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\renderer.hpp
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	"glm.hpp"
+
+1380618805 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\collider.cpp
+	"Collider.h"
+
+1380707471 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\collider.h
+	"glm.hpp"
+
+1380619662 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\collisiondetector.cpp
+	"CollisionDetector.h"
+
+1380708538 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\collisiondetector.h
+	<iostream>
+	<vector>
+	"Collider.h"
+
+1380621527 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\fps.cpp
+	<iostream>
+	"FPS.hpp"
+	"Time.hpp"
+
+1361092144 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\fps.hpp
+
+1358431643 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\time.hpp
+	<SFML/System.hpp>
+
+1385475685 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\gameobject.cpp
+	<cassert>
+	<iostream>
+	"Renderer.hpp"
+	"GameObject.hpp"
+	"Behaviour.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1359671404 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\mesh.hpp
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1359061002 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\texture.hpp
+	<iostream>
+	<map>
+	<GL/glew.h>
+
+1383407377 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\hud.cpp
+	<cassert>
+	<iostream>
+	<cstdio>
+	<GL/glew.h>
+	"FPS.hpp"
+	"Hud.hpp"
+	"Time.hpp"
+
+1385475361 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\hud.hpp
+	<SFML/Graphics.hpp>
+	"time.h"
+
+1359907291 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\light.cpp
+	"Light.hpp"
+	"Renderer.hpp"
+
+1359907327 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\light.hpp
+	<string>
+	"GameObject.hpp"
+
+1361173636 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\main.cpp
+	<iostream>
+	"Game.hpp"
+
+1378134448 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\game.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1361016765 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\mesh.cpp
+	"Mesh.hpp"
+	<map>
+	<cstring>
+	<fstream>
+	"Renderer.hpp"
+
+1361179274 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\renderer.cpp
+	"Renderer.hpp"
+	<cassert>
+	<GL/glew.h>
+	"Time.hpp"
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+	"GameObject.hpp"
+
+1359815027 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\shaderprogram.hpp
+	<string>
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1359060929 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\shaderprogram.cpp
+	"ShaderProgram.hpp"
+	<iostream>
+	<fstream>
+	"Texture.hpp"
+
+1360915113 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\texture.cpp
+	<SFML/Graphics.hpp>
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+
+1359818749 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1378132886 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\world.cpp
+	<cassert>
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+
+1378132840 c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\world.hpp
+	"GameObject.hpp"
+
+1385476195 source:c:\users\royschroder\dropbox\project back to basic\gtp\controllertest\game.cpp
+	<cassert>
+	"Time.hpp"
+	"FPS.hpp"
+	"Hud.hpp"
+	"Renderer.hpp"
+	"ShaderProgram.hpp"
+	"Game.hpp"
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+	"Behaviours/KeysBehaviour.hpp"
+	"Behaviours/WASDBehaviour.hpp"
+	"Behaviours/RotatingBehaviour.hpp"
+	"Behaviours/FollowBehavior.hpp"
+
+1385336054 source:c:\users\royschroder\desktop\controllertest\behaviour.cpp
+	<cassert>
+	<iostream>
+	"Behaviour.hpp"
+
+1385336149 c:\users\royschroder\desktop\controllertest\behaviour.hpp
+	"XController.h"
+
+1385477554 c:\users\royschroder\desktop\controllertest\xcontroller.h
+
+1383268482 source:c:\users\royschroder\desktop\controllertest\behaviours\followbehavior.cpp
+	"FollowBehavior.hpp"
+	"../glm.hpp"
+
+1378998096 c:\users\royschroder\desktop\controllertest\behaviours\followbehavior.hpp
+	"../Behaviour.hpp"
+	"../GameObject.hpp"
+	"../glm.hpp"
+
+1383268022 c:\users\royschroder\desktop\controllertest\gameobject.hpp
+	<vector>
+	<string>
+	"glm.hpp"
+
+1359909794 c:\users\royschroder\desktop\controllertest\glm.hpp
+	<iostream>
+	<iomanip>
+	<glm/glm.hpp>
+	<glm/ext.hpp>
+
+1359902126 source:c:\users\royschroder\desktop\controllertest\behaviours\keysbehaviour.cpp
+	"KeysBehaviour.hpp"
+	<sfml/window.hpp>
+	"../GameObject.hpp"
+
+1359823466 c:\users\royschroder\desktop\controllertest\behaviours\keysbehaviour.hpp
+	"../Behaviour.hpp"
+
+1383265172 source:c:\users\royschroder\desktop\controllertest\behaviours\rotatingbehaviour.cpp
+	"RotatingBehaviour.hpp"
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1359823480 c:\users\royschroder\desktop\controllertest\behaviours\rotatingbehaviour.hpp
+	"../Behaviour.hpp"
+
+1385478868 source:c:\users\royschroder\desktop\controllertest\behaviours\wasdbehaviour.cpp
+	<iostream>
+	<cmath>
+	<SFML/Window.hpp>
+	"WASDBehaviour.hpp"
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1385476646 c:\users\royschroder\desktop\controllertest\behaviours\wasdbehaviour.hpp
+	<SFML/Window.hpp>
+	"../Behaviour.hpp"
+
+1383408915 source:c:\users\royschroder\desktop\controllertest\behaviours\wheelbehaviour.cpp
+	"WheelBehaviour.hpp"
+	<sfml/window.hpp>
+	<iostream>
+	"../glm.hpp"
+	"../GameObject.hpp"
+
+1383406949 c:\users\royschroder\desktop\controllertest\behaviours\wheelbehaviour.hpp
+	"../Behaviour.hpp"
+
+1361178152 source:c:\users\royschroder\desktop\controllertest\camera.cpp
+	"glm.hpp"
+	"Camera.hpp"
+	"Renderer.hpp"
+
+1359907314 c:\users\royschroder\desktop\controllertest\camera.hpp
+	<string>
+	"GameObject.hpp"
+
+1361178780 c:\users\royschroder\desktop\controllertest\renderer.hpp
+	<GL/glew.h>
+	<SFML/Window.hpp>
+	"glm.hpp"
+
+1380618805 source:c:\users\royschroder\desktop\controllertest\collider.cpp
+	"Collider.h"
+
+1380707471 c:\users\royschroder\desktop\controllertest\collider.h
+	"glm.hpp"
+
+1380619662 source:c:\users\royschroder\desktop\controllertest\collisiondetector.cpp
+	"CollisionDetector.h"
+
+1380708538 c:\users\royschroder\desktop\controllertest\collisiondetector.h
+	<iostream>
+	<vector>
+	"Collider.h"
+
+1380621527 source:c:\users\royschroder\desktop\controllertest\fps.cpp
+	<iostream>
+	"FPS.hpp"
+	"Time.hpp"
+
+1361092144 c:\users\royschroder\desktop\controllertest\fps.hpp
+
+1358431643 c:\users\royschroder\desktop\controllertest\time.hpp
+	<SFML/System.hpp>
+
+1385478980 source:c:\users\royschroder\desktop\controllertest\game.cpp
+	<cassert>
+	"Time.hpp"
+	"FPS.hpp"
+	"Hud.hpp"
+	"Renderer.hpp"
+	"ShaderProgram.hpp"
+	"Game.hpp"
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+	"Behaviours/KeysBehaviour.hpp"
+	"Behaviours/WASDBehaviour.hpp"
+	"Behaviours/RotatingBehaviour.hpp"
+	"Behaviours/FollowBehavior.hpp"
+
+1385475361 c:\users\royschroder\desktop\controllertest\hud.hpp
+	<SFML/Graphics.hpp>
+	"time.h"
+
+1359815027 c:\users\royschroder\desktop\controllertest\shaderprogram.hpp
+	<string>
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1378134448 c:\users\royschroder\desktop\controllertest\game.hpp
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1378132840 c:\users\royschroder\desktop\controllertest\world.hpp
+	"GameObject.hpp"
+
+1359907327 c:\users\royschroder\desktop\controllertest\light.hpp
+	<string>
+	"GameObject.hpp"
+
+1359671404 c:\users\royschroder\desktop\controllertest\mesh.hpp
+	<vector>
+	<GL/glew.h>
+	"glm.hpp"
+
+1359061002 c:\users\royschroder\desktop\controllertest\texture.hpp
+	<iostream>
+	<map>
+	<GL/glew.h>
+
+1385475685 source:c:\users\royschroder\desktop\controllertest\gameobject.cpp
+	<cassert>
+	<iostream>
+	"Renderer.hpp"
+	"GameObject.hpp"
+	"Behaviour.hpp"
+	"Mesh.hpp"
+	"Texture.hpp"
+
+1383407377 source:c:\users\royschroder\desktop\controllertest\hud.cpp
+	<cassert>
+	<iostream>
+	<cstdio>
+	<GL/glew.h>
+	"FPS.hpp"
+	"Hud.hpp"
+	"Time.hpp"
+
+1359907291 source:c:\users\royschroder\desktop\controllertest\light.cpp
+	"Light.hpp"
+	"Renderer.hpp"
+
+1361173636 source:c:\users\royschroder\desktop\controllertest\main.cpp
+	<iostream>
+	"Game.hpp"
+
+1361016765 source:c:\users\royschroder\desktop\controllertest\mesh.cpp
+	"Mesh.hpp"
+	<map>
+	<cstring>
+	<fstream>
+	"Renderer.hpp"
+
+1361179274 source:c:\users\royschroder\desktop\controllertest\renderer.cpp
+	"Renderer.hpp"
+	<cassert>
+	<GL/glew.h>
+	"Time.hpp"
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+	"GameObject.hpp"
+
+1359060929 source:c:\users\royschroder\desktop\controllertest\shaderprogram.cpp
+	"ShaderProgram.hpp"
+	<iostream>
+	<fstream>
+	"Texture.hpp"
+
+1360915113 source:c:\users\royschroder\desktop\controllertest\texture.cpp
+	<SFML/Graphics.hpp>
+	"ShaderProgram.hpp"
+	"Texture.hpp"
+
+1359818749 source:c:\users\royschroder\desktop\controllertest\time.cpp
+	"Time.hpp"
+	<iostream>
+
+1378132886 source:c:\users\royschroder\desktop\controllertest\world.cpp
+	<cassert>
+	"World.hpp"
+	"Camera.hpp"
+	"Light.hpp"
+

@@ -1,11 +1,14 @@
 #ifndef BEHAVIOUR_H
 #define BEHAVIOUR_H
+#include "XController.h"
 
 class GameObject;
 class Behaviour
 {
+
 	protected:
 		GameObject * parent;
+
 
 	public:
 		Behaviour( GameObject * aParent );

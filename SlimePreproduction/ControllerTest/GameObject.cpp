@@ -8,7 +8,7 @@
 #include "Texture.hpp"
 
 GameObject::GameObject( std::string aName, glm::vec3 aPosition )
-:	name( aName ), transform( glm::translate( aPosition ) ), behaviour( NULL ), mesh( NULL ), colorMap( NULL ) // initialisation list
+:	name( aName ), behaviour( NULL ), mesh( NULL ),colorMap( NULL ),transform( glm::translate( aPosition ) )   // initialisation list
 {
 }
 
@@ -29,6 +29,13 @@ void GameObject::rotate( float angle, glm::vec3 axis )
 const std::string GameObject::getName()
 {
 	return name;
+}
+
+void GameObject::moveTo(glm::mat4 newpos){
+transform = newpos;
+}
+glm::mat4 GameObject::getTo(){
+return transform;
 }
 
 glm::vec3 GameObject::getLocation()

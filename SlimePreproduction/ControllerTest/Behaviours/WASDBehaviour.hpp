@@ -9,6 +9,10 @@ class WASDBehaviour : public Behaviour
 {
 	private:
 		sf::Window * window;
+		XController * xc;
+		bool xcon;
+		float vibinc;
+
 
 	public:
 		WASDBehaviour( GameObject * aParent, sf::Window * aWindow );
